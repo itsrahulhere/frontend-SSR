@@ -4,11 +4,6 @@ import {Button,Row,Col,Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RightGrid from './RightGrid';
 import profile from './Images/profile.jpg';
-import B from './Images/B.jpg';
-//import img1 from './Images/img1.jpg';
-//import img2 from './Images/img2.jpeg';
-//import img3 from './Images/img3.jpg';
-//import img4 from './Images/img4.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus,faRocket } from '@fortawesome/free-solid-svg-icons';
 
