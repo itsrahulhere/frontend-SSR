@@ -1,0 +1,103 @@
+.firstBox
+{
+    color: white;
+    padding: 15px;
+    border:solid;
+    border-radius: 15px;
+    border-color: #607a6f;
+    background-color: #607a6f;
+    font-size: 25px;
+    font-weight: 500;
+    min-height: 50vh;
+}
+
+.Play{
+    border:solid;
+    border-radius: 100px;
+    border-width: 2px;
+    padding: 3px 13px 8px  16px;
+    border-color: white;
+    background-color: white;
+    color: #e8719c;
+    margin-top:100px;
+    z-index:9999;
+    position: absolute;
+}
+.Play2{
+    border:solid;
+    border-radius: 100px;
+    border-width: 2px;
+    padding: 3px 13px 8px  16px;
+    border-color: white;
+    background-color: white;
+    color: #e8719c;
+    z-index:9999;
+    position: relative;
+    margin: 50px 0 0 115px;
+}
+.fourthBox
+{
+    padding: 15px;
+    border:solid;
+    border-radius: 15px 15px 0 0;
+    border-color: #99d4f1;
+    background-color: #99d4f1;
+    font-size: 25px;
+    margin-top: 25px;
+    min-height: 12vh;
+}
+.secondBox
+{
+    color: white;
+    background-color: #2f3778;
+    border:solid;
+    border-radius: 15px;
+    border-color: #2f3778;
+    padding: 15px;
+    min-height: 25vh;
+    font-size: large;
+}
+.thirdBox
+{
+    color: white;
+    background-color: #d980ac;
+    border:solid;
+    border-radius: 15px;
+    min-height: 25vh;
+    border-color: #d980ac;
+    padding: 15px;
+    font-size: large;
+}
+.fifthBox
+{
+    color: white;
+    background-color: #95999c;
+    border:solid;
+    border-radius: 15px;
+    min-height: 25vh;
+    border-color: #95999c;
+    padding: 25px;
+    font-size:30px;
+    margin-top: 25px;
+}
+.sixthBox
+{
+    color: white;
+    background-color: #fedfa6;
+    border:solid;
+    border-radius: 15px 15px 0 0;
+    min-height: 30px;
+    border-color: #fedfa6;
+    font-size:30px;
+    margin-top: 25px;
+}
+#StayFocusedBtn
+{
+  background-color: #fcfcfa;
+  color:black;
+  min-height: 2vh;
+  margin: 15px 15px 15px 0;
+  border:none;
+  font-weight: 500;
+  font-size: 10px;
+}
