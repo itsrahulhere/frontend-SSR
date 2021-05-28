@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/frontend-SSR/static/css/main.aface385.chunk.css",
+    "main.js": "/frontend-SSR/static/js/main.073e19f4.chunk.js",
+    "main.js.map": "/frontend-SSR/static/js/main.073e19f4.chunk.js.map",
+    "runtime-main.js": "/frontend-SSR/static/js/runtime-main.9a794147.js",
+    "runtime-main.js.map": "/frontend-SSR/static/js/runtime-main.9a794147.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/frontend-SSR/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.9a49ba4d.chunk.js": "/frontend-SSR/static/js/2.9a49ba4d.chunk.js",
+    "static/js/2.9a49ba4d.chunk.js.map": "/frontend-SSR/static/js/2.9a49ba4d.chunk.js.map",
+    "static/js/3.df84f854.chunk.js": "/frontend-SSR/static/js/3.df84f854.chunk.js",
+    "static/js/3.df84f854.chunk.js.map": "/frontend-SSR/static/js/3.df84f854.chunk.js.map",
+    "index.html": "/frontend-SSR/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/frontend-SSR/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.aface385.chunk.css.map": "/frontend-SSR/static/css/main.aface385.chunk.css.map",
+    "static/js/2.9a49ba4d.chunk.js.LICENSE.txt": "/frontend-SSR/static/js/2.9a49ba4d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a794147.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.9a49ba4d.chunk.js",
+    "static/css/main.aface385.chunk.css",
+    "static/js/main.073e19f4.chunk.js"
+  ]
+}
