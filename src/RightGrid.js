@@ -29,10 +29,17 @@ function RightGrid() {
                     <Col><Row>
                     <Col sm xs md lg="6">
                     <div className="secondBox">
-                   <b>Great things<br/>never come from<br/>comfort zones.</b> 
+                      <Row>
+                   <b>Great things<br/>never come from<br/>comfort zones.</b> <br/>
+                   </Row>
+                   <Row>
+                     <Col sm xs md lg="8"></Col>
+                     <Col sm xs md lg="4">
                    <div className="Play2">
                             <FontAwesomeIcon  icon={faPlay} size="xs"/>
                     </div>
+                    </Col>
+                    </Row>
                     </div>
                     </Col>
                     <Col sm xs md lg="6">

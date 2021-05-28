@@ -3,7 +3,6 @@ import './App.css';
 import {Button,Row,Col,Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import RightGrid from './RightGrid';
-import profile from './Images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus,faRocket } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,10 +17,10 @@ function App() {
        <Col >
          <div className="left-area">
          <div className="profile">
-         <img src={B} alt="B" style={{width: 55, height: 55,borderRadius:"15px 0 15px 0",margin:"15px 0 60px 0"}}/>
+         <img src="/B.jpg" alt="B" style={{width: 55, height: 55,borderRadius:"15px 0 15px 0",margin:"15px 0 60px 0"}}/>
            <Row><Col xs sm md lg="2">
            
-         <img src={profile} alt="profile" style={{width: 55, height: 55,borderRadius:"100px"}}/>
+         <img src="/profile.jpg" alt="profile" style={{width: 55, height: 55,borderRadius:"100px"}}/>
          </Col>
          <Col xs sm md lg="auto">
          <div className="is-active-name">
@@ -41,14 +40,24 @@ function App() {
         <a href="abc" class="nav-item">Design</a><br/><br/>
         <a href="abc" class="nav-item">Study</a><br/><br/><br/>
         <div className="left-bottom">
+        
         <Container>
         <Row>
           <Col xs sm md lg="2"> 
-      <FontAwesomeIcon className="Rocket" icon={faRocket} size="2x"/>
-      </Col>
-          <Col sm="10">Pro account is more powerful. Get 30% off
-          <Button class="btn btn-secondary " id="SeePro">See Pro</Button><br/><br/>
+          <FontAwesomeIcon className="Rocket" icon={faRocket} size="2x"/>
           </Col>
+
+          <Col xs sm md lg="10">
+          <div style={{margin:"0 0 10px 10px"}}>
+                <Row>
+                   Pro account is more powerful. Get 30% off
+                  </Row>
+                <Row>
+              <Button class="btn btn-secondary " id="SeePro">See Pro</Button><br/><br/>
+              </Row>
+              </div>
+          </Col>
+
           </Row>
           </Container>
         </div><br/>
@@ -73,7 +82,7 @@ function App() {
       <Col xs sm md lg="3">
       <div className="rightprofiles">
       <img className="img1" src="/img1.jpg" alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
-      <img className="img2" src="/img2.jpg" alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
+      <img className="img2" src="/img2.jpeg" alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
       <img className="img3" src="/img3.jpg" alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
       <img className="img4" src="/img4.jpg" alt="profile" style={{width: 40, height: 40,borderRadius:"100px"}}/>
       <div className="Plus">
